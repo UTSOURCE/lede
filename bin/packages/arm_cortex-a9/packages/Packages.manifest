@@ -1,0 +1,1053 @@
+Package: aria2
+Version: 1.32.0-3
+Depends: libc, zlib, libstdcpp, libopenssl, libxml2, libsqlite3
+Source: feeds/packages/net/aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 792182
+Filename: aria2_1.32.0-3_arm_cortex-a9.ipk
+Size: 792292
+SHA256sum: 900daf93087119596963f3123ed550ee148404c50741c873b6f8f54a19afbf30
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: bash
+Version: 4.3.42-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/bash
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9
+Installed-Size: 335762
+Filename: bash_4.3.42-1_arm_cortex-a9.ipk
+Size: 336572
+SHA256sum: d0279b5fcd3d9b0a53911961be855d41a8be9338fd4170cc63acb806a097e26b
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: coreutils-base64
+Version: 8.23-3
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9
+Installed-Size: 19290
+Filename: coreutils-base64_8.23-3_arm_cortex-a9.ipk
+Size: 20003
+SHA256sum: fa667903c548d02f9db627653551c53db8763f0ea6102dd0574e67774f249462
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.23-3
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9
+Installed-Size: 17332
+Filename: coreutils-nohup_8.23-3_arm_cortex-a9.ipk
+Size: 18089
+SHA256sum: aaec192cc4f4d944414a4169c308f8b21050cc809a80019cf1b7c43c9ed4f845
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.23-3
+Depends: libc
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9
+Installed-Size: 104
+Filename: coreutils_8.23-3_arm_cortex-a9.ipk
+Size: 913
+SHA256sum: 6a941d0d16fed1aa937b28f35e8783760a930d50625cc2f670fa4f37d4ee1b1e
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: ddns-scripts
+Version: 2.7.6-17
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 14956
+Filename: ddns-scripts_2.7.6-17_all.ipk
+Size: 16058
+SHA256sum: 81d36f48b6d34dccf4b850b13e8bb209fc217a577b4439e93a3eeaee3cdc5f46
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9
+Installed-Size: 4742
+Filename: etherwake_1.09-4_arm_cortex-a9.ipk
+Size: 5649
+SHA256sum: 532bfd6e5697232fbc3ad6ee5e1594aaf63d9fbf25aac0ad44d9c5627dc08106
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: hd-idle
+Version: 1.04-2
+Depends: libc
+Source: feeds/packages/utils/hd-idle
+License: GPL-2.0
+Section: utils
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 4343
+Filename: hd-idle_1.04-2_arm_cortex-a9.ipk
+Size: 5127
+SHA256sum: 4bed87f9375cd2d432607cba2c23ec295716955cbb7065d7ce9cf3f95fcd1269
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 2.0.2-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 51550
+Filename: htop_2.0.2-1_arm_cortex-a9.ipk
+Size: 52418
+SHA256sum: 79ea51d3265ee0cd8adcf525e092423793dd5f10570a2dd6799c34f84b4ff4e3
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9
+Installed-Size: 502115
+Filename: libdb47_4.7.25.4.NC-5_arm_cortex-a9.ipk
+Size: 499956
+SHA256sum: 3139ebe169000a2e45c4c7275f57d9afefdaca4677cb5ddd44fb7fd38c6942ee
+Description:  Berkeley DB library (4.7).
+
+Package: libexpat
+Version: 2.2.3-1
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>, Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 46766
+Filename: libexpat_2.2.3-1_arm_cortex-a9.ipk
+Size: 47351
+SHA256sum: 8c41c33aae533627f2e647dda9e748bd917b6d6a7f2a7b3f4c7f194fdc95987f
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9
+Installed-Size: 5429
+Filename: libffi_3.2.1-2_arm_cortex-a9.ipk
+Size: 6461
+SHA256sum: d1925890a7c00cf2b6ca7e1d4163cbd761ac99327d18d268ebce4a554105e995
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9
+Installed-Size: 16109
+Filename: libgdbm_1.11-1_arm_cortex-a9.ipk
+Size: 16840
+SHA256sum: 4534b4365bbb4b8f0f48c5b01d2bbdcc1ba218c4b94607942921d8d8c1862ea2
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9
+Installed-Size: 80265
+Filename: libpcre_8.41-2_arm_cortex-a9.ipk
+Size: 81006
+SHA256sum: 97b587e5b8d65bc8e8ae42a9e5f7c3d93b3afcfc03c6ea9bde0c64e599087215
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.29-2
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9
+Installed-Size: 81316
+Filename: libpng_1.6.29-2_arm_cortex-a9.ipk
+Size: 82119
+SHA256sum: 338d143edbc2da259a6bce2eb44b75b0b2f317150acee85baf1a5b35267f0994
+Description:  A PNG format files handling library
+
+Package: libsqlite3
+Version: 3190300-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 336482
+Filename: libsqlite3_3190300-1_arm_cortex-a9.ipk
+Size: 337198
+SHA256sum: 8942f878f42297fc5003af3373e575c9a13a5e60dafc874117ee3feb2086bb74
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libupnp
+Version: 1.6.19-2
+Depends: libc, libpthread
+Source: feeds/packages/libs/libupnp
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 84675
+Filename: libupnp_1.6.19-2_arm_cortex-a9.ipk
+Size: 85443
+SHA256sum: fff329021f4de2996ee4142dcbceef4f556cc49cf16a9d5326cf5a58077f2cca
+Description:  The portable SDK for UPnP Devices (libupnp) provides developers with an API and
+ open source code for building control points, devices, and bridges that are
+ compliant with Version 1.0 of the  Universal Plug and Play Device Architecture
+ Specification.
+
+Package: libxml2
+Version: 2.9.4-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9
+Installed-Size: 467670
+Filename: libxml2_2.9.4-1_arm_cortex-a9.ipk
+Size: 465860
+SHA256sum: e15488e520e5dd6deab598853a61e1eab91c070a6af7e7dd83051c03a41c48ea
+Description:  A library for manipulating XML and HTML resources.
+
+Package: luci-app-sqm
+Version: 1.1.3-1
+Depends: libc, lua, luci-base, sqm-scripts
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 3850
+Filename: luci-app-sqm_1.1.3-1_all.ipk
+Size: 4792
+SHA256sum: 119c188c0e0a643fe426e091e24064291daafa5158ae7430925df233e278ff47
+Description:  Luci interface for the SQM scripts queue management configuration package.
+
+Package: mwan3
+Version: 2.6.4-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Source: feeds/packages/net/mwan3
+License: GPLv2
+Section: net
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 9591
+Filename: mwan3_2.6.4-1_all.ipk
+Size: 10596
+SHA256sum: 17e70799346c25a802221db06493ae0485bae03cf6e7fa6a933b303598dff0fe
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: ntfs-3g
+Version: 2017.3.23-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+Source: feeds/packages/utils/ntfs-3g
+License: GPL-2.0 LGPL-2.0
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 186297
+Filename: ntfs-3g_2017.3.23-1-fuseint_arm_cortex-a9.ipk
+Size: 186656
+SHA256sum: 0c1045bad019ea6ceea04ee1236bf489287099e6c16da262cd516d4ae15eec64
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: p910nd
+Version: 0.97-5
+Depends: libc
+Source: feeds/packages/net/p910nd
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Philipp Kerling <pkerling@casix.org>
+Architecture: arm_cortex-a9
+Installed-Size: 5221
+Filename: p910nd_0.97-5_arm_cortex-a9.ipk
+Size: 6172
+SHA256sum: 25023884fd077d030804fb153fe505792d7d8758eb1f7741487bee7b0f325550
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: pptpd
+Version: 1.4.0-3
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Source: feeds/packages/net/pptpd
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: arm_cortex-a9
+Installed-Size: 30051
+Filename: pptpd_1.4.0-3_arm_cortex-a9.ipk
+Size: 30826
+SHA256sum: 0e5da0d4f572a021400c038fa0c38c5560f603d29160d023f062001b07468569
+Description:  PopTop pptp server
+
+Package: python-base
+Version: 2.7.13-6
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 716242
+Filename: python-base_2.7.13-6_arm_cortex-a9.ipk
+Size: 711678
+SHA256sum: d165493f9c8fc23f86219f4602e8afeba230f528cdf1fa20bd33e6852fa9ea92
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 695873
+Filename: python-codecs_2.7.13-6_arm_cortex-a9.ipk
+Size: 680312
+SHA256sum: 7a27ff2d0e3bf7901acec6819b3c082a9e26e3b74104a016b2d196372c7e4396
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 59771
+Filename: python-compiler_2.7.13-6_arm_cortex-a9.ipk
+Size: 60693
+SHA256sum: 33955c425765b81c31f837eeff88716f03c1ad2238cbc60ea9b28fed469d8e04
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 60036
+Filename: python-ctypes_2.7.13-6_arm_cortex-a9.ipk
+Size: 60574
+SHA256sum: 532b2cd2cc0e13f6fd1f19f2b04d86df8c732dc3fb91f662aa43ad8594b7badd
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.13-6
+Depends: libc, python-light, libdb47
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 72059
+Filename: python-db_2.7.13-6_arm_cortex-a9.ipk
+Size: 72503
+SHA256sum: 469dcf18bfe7d0d84482c117af81b4817ec2f18b65f61eef12bf453ed78df0e1
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 48957
+Filename: python-decimal_2.7.13-6_arm_cortex-a9.ipk
+Size: 49833
+SHA256sum: aa47de431fb5dd5e0b0407a577b5607b1361841ac24bbea8a88c20bb32ee33db
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 174575
+Filename: python-distutils_2.7.13-6_arm_cortex-a9.ipk
+Size: 175513
+SHA256sum: 4a3199d830f3aab96a15ce386342887080ffa1156533c0cad01d55ff4a2be5f8
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 50228
+Filename: python-email_2.7.13-6_arm_cortex-a9.ipk
+Size: 51155
+SHA256sum: 3e46e79a5191481b6a481150954ab0b961b5061786dd5cdd134d59d2cb896161
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.13-6
+Depends: libc, python-light, libgdbm
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 5422
+Filename: python-gdbm_2.7.13-6_arm_cortex-a9.ipk
+Size: 6209
+SHA256sum: 290426134aa7cd2e117d2b9cb445046351b303abd016b05405658c4510276eb2
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.13-6
+Depends: libc, python-base, libffi, libbz2
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 1422518
+Filename: python-light_2.7.13-6_arm_cortex-a9.ipk
+Size: 1422700
+SHA256sum: 31e65a8926db12c16c1f242a6d9733b84197334ca7171a4258d5b3df3cb9ea37
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 42502
+Filename: python-logging_2.7.13-6_arm_cortex-a9.ipk
+Size: 43384
+SHA256sum: dda86eee8bf2c70ae9c9c2c69a26eec7ab6d5969d900a6418da442e25c255016
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 64512
+Filename: python-multiprocessing_2.7.13-6_arm_cortex-a9.ipk
+Size: 65355
+SHA256sum: 3f78f4d07bef5947a373978eb2fcac054156bca2b204fc257a7892a7fdbc4e25
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.13-6
+Depends: libc, python-light, libncurses
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 30886
+Filename: python-ncurses_2.7.13-6_arm_cortex-a9.ipk
+Size: 31354
+SHA256sum: 62fd8e68af9ec7ea72270291b71740bc145bf71a455edfab4ea86db7089de689
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.13-6
+Depends: libc, python-light, libopenssl
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 33914
+Filename: python-openssl_2.7.13-6_arm_cortex-a9.ipk
+Size: 34379
+SHA256sum: 7dd0649af4c97a63961740ebd4a3526ca523556890a431708af135b789361451
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 180371
+Filename: python-pydoc_2.7.13-6_arm_cortex-a9.ipk
+Size: 180963
+SHA256sum: 8d19d69a115f96fbbbed6a0e833570d9811c2d8a01e7d04232bbb2fe3ce2ffb9
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.13-6
+Depends: libc, python-light, libsqlite3
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 26284
+Filename: python-sqlite3_2.7.13-6_arm_cortex-a9.ipk
+Size: 26869
+SHA256sum: f3335c923b7c430cbf4a735ce5f9bc751cebadd6e75c863847a8bffc4f92dafc
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 33390
+Filename: python-unittest_2.7.13-6_arm_cortex-a9.ipk
+Size: 34278
+SHA256sum: 9d51c3f1314a2c9714190b4fb9ecbabeed8340e8dbac6687b218d70d802b030c
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.13-6
+Depends: libc, python-light, libexpat
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 170458
+Filename: python-xml_2.7.13-6_arm_cortex-a9.ipk
+Size: 171290
+SHA256sum: 623d986f1caccba912163704d1d5e66913a69dd3a660bfef7051815d92dbe744
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.13-6
+Depends: libc, python-light, python-codecs, python-compiler, python-ctypes, python-db, python-decimal, python-distutils, python-email, python-gdbm, python-logging, python-multiprocessing, python-ncurses, python-openssl, python-pydoc, python-sqlite3, python-unittest, python-xml
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 104
+Filename: python_2.7.13-6_arm_cortex-a9.ipk
+Size: 1030
+SHA256sum: b44531749c16851043e8465ad5a02b8fde3de2820548ccad6fbedd8fc2b9a49f
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: sqm-scripts
+Version: 1.1.3-1
+Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 14651
+Filename: sqm-scripts_1.1.3-1_all.ipk
+Size: 15493
+SHA256sum: a174b9c7a612d9e545e458b68a09b46e7e2c052e8a0ed80e0368b9d1b131864c
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: strongswan-charon
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 208185
+Filename: strongswan-charon_5.6.0-1_arm_cortex-a9.ipk
+Size: 208188
+SHA256sum: 4611d7f1412ac5bfb1deeb8d0066df167029cc3c9466b3342a5976b2cc0ee8e9
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-ipsec
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 2867
+Filename: strongswan-ipsec_5.6.0-1_arm_cortex-a9.ipk
+Size: 3637
+SHA256sum: 2020f0a0d3790ff208953bbbb2b255949d7a0360f46327525fd050434fbfccdc
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the ipsec utility.
+
+Package: strongswan-minimal
+Version: 5.6.0-1
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 104
+Filename: strongswan-minimal_5.6.0-1_arm_cortex-a9.ipk
+Size: 1000
+SHA256sum: e596f53ce3e9d8a1ea2ff83fd7de6a1f07ce1ac8bfbb8a9b5fdbeac031a23bba
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-aes
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 14886
+Filename: strongswan-mod-aes_5.6.0-1_arm_cortex-a9.ipk
+Size: 13826
+SHA256sum: 806dcde6cd2bfc67fb342d018d4f0229b9f686092c6abe8c5aae3d3b8271099a
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-gmp
+Version: 5.6.0-1
+Depends: libc, strongswan, libgmp
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 9516
+Filename: strongswan-mod-gmp_5.6.0-1_arm_cortex-a9.ipk
+Size: 10276
+SHA256sum: f4d43880203dd6c25dfbf9ba8b9da5da85a2e6093052096d516a7840d3a35519
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-hmac
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 2306
+Filename: strongswan-mod-hmac_5.6.0-1_arm_cortex-a9.ipk
+Size: 3036
+SHA256sum: 7d8f84a6bd75c49789926f3e7cf921ef22fdd6455284507a9d1511295f5646c5
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 31802
+Filename: strongswan-mod-kernel-netlink_5.6.0-1_arm_cortex-a9.ipk
+Size: 32544
+SHA256sum: d7a42920c4e3e5e56e591b31e4226915af8f92335a2af80aae7444e4c6d44de2
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 1494
+Filename: strongswan-mod-nonce_5.6.0-1_arm_cortex-a9.ipk
+Size: 2227
+SHA256sum: 8578e295823bf40951b4cc543293a80e1220a8ef1d03dba6655311dbccad5e34
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 2262
+Filename: strongswan-mod-pubkey_5.6.0-1_arm_cortex-a9.ipk
+Size: 2989
+SHA256sum: d73ade3b799e0c37d669f05a2a38ae2daa343ab045daf57ded7409f0cc49fa87
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 2274
+Filename: strongswan-mod-random_5.6.0-1_arm_cortex-a9.ipk
+Size: 2998
+SHA256sum: daf5fe6aa6e424f3061f2fba747ba97455b4fbf05b480277cb229a20e6208c11
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-sha1
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 5400
+Filename: strongswan-mod-sha1_5.6.0-1_arm_cortex-a9.ipk
+Size: 6148
+SHA256sum: 6e85cd7637a88cbe3517eaa695a8e332c4e9f584df22b0f1e23a9989c6818d32
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 5186
+Filename: strongswan-mod-socket-default_5.6.0-1_arm_cortex-a9.ipk
+Size: 5937
+SHA256sum: 0f738e0770d91989443505e93357237be4c4136392050d00b0dac45ec2b379c1
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-stroke
+Version: 5.6.0-1
+Depends: libc, strongswan, strongswan-charon, strongswan-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 65461
+Filename: strongswan-mod-stroke_5.6.0-1_arm_cortex-a9.ipk
+Size: 66157
+SHA256sum: 82b03f55db1568a918e22b7cecce899375ccd4eb5891721d20f2b6688c2165dc
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-updown
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 8335
+Filename: strongswan-mod-updown_5.6.0-1_arm_cortex-a9.ipk
+Size: 9104
+SHA256sum: 3b45e6dc3578117b8da226646deca4708785470f67bfcefd5f8791927be1c91d
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-x509
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 28672
+Filename: strongswan-mod-x509_5.6.0-1_arm_cortex-a9.ipk
+Size: 29062
+SHA256sum: 721f0d2b63209fb4f142679b7185c8ce52638ddd98d5b71e00e13062b492fbca
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 2718
+Filename: strongswan-mod-xauth-generic_5.6.0-1_arm_cortex-a9.ipk
+Size: 3460
+SHA256sum: 23c1b7f38e3921eb3e6d793a42bd18ff0f2031f40e0f4980f2baef9a748d1050
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 2911
+Filename: strongswan-mod-xcbc_5.6.0-1_arm_cortex-a9.ipk
+Size: 3641
+SHA256sum: 82866e261b6fe1270f03dc6ba5e1f5c4469bd600c53c1ee785b9f2a136d02bd8
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan
+Version: 5.6.0-1
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9
+Installed-Size: 135611
+Filename: strongswan_5.6.0-1_arm_cortex-a9.ipk
+Size: 135180
+SHA256sum: 24224936bf045c04a40d94b15065248303b7e22db174cdf40aaa2ad125ccbeec
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: transmission-cli-openssl
+Version: 2.92+git-4
+Depends: libc, libcurl, libpthread, libevent2, librt, zlib, libopenssl
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: arm_cortex-a9
+Installed-Size: 762584
+Filename: transmission-cli-openssl_2.92+git-4_arm_cortex-a9.ipk
+Size: 761902
+SHA256sum: d030b910e152998d772c98065d9ff845965f5a16cc2dc0636cb34828fbe7507b
+Description:  CLI utilities for transmission.
+
+Package: transmission-daemon-openssl
+Version: 2.92+git-4
+Depends: libc, libcurl, libpthread, libevent2, librt, zlib, libopenssl
+Source: feeds/packages/net/transmission
+Section: net
+Require-User: transmission=224:transmission=224
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: arm_cortex-a9
+Installed-Size: 197715
+Filename: transmission-daemon-openssl_2.92+git-4_arm_cortex-a9.ipk
+Size: 198129
+SHA256sum: ecafda114f682bf2736b39ad74a7038a64609c673b46d8e36ae04c08bd7d469c
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-remote-openssl
+Version: 2.92+git-4
+Depends: libc, libcurl, libpthread, libevent2, librt, zlib, libopenssl
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: arm_cortex-a9
+Installed-Size: 203280
+Filename: transmission-remote-openssl_2.92+git-4_arm_cortex-a9.ipk
+Size: 203691
+SHA256sum: cfa11b415e50aa39b071a9ccf608fb8a95c4bffe7201baa9a08bf5ce94040fb0
+Description:  CLI remote interface for transmission.
+
+Package: transmission-web
+Version: 2.92+git-4
+Depends: libc
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: arm_cortex-a9
+Installed-Size: 244035
+Filename: transmission-web_2.92+git-4_arm_cortex-a9.ipk
+Size: 244886
+SHA256sum: 03d98606e7c12951e74ee72dcdf836a91f0e5aa724da3ede7a4e7c25739b5741
+Description:  Webinterface resources for transmission.
+
+Package: webui-aria2
+Version: 2017-05-21-d1ce5b99-1
+Depends: libc
+Source: feeds/packages/net/webui-aria2
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 913506
+Filename: webui-aria2_2017-05-21-d1ce5b99-1_all.ipk
+Size: 913882
+SHA256sum: 0a2c271e5b15c988d5eea7713adcfe64afb9b2560422f6d05e937e8461506946
+Description:  The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use.
+
+Package: wget
+Version: 1.18-2
+Depends: libc, libpcre, zlib, libopenssl, librt
+Source: feeds/packages/net/wget
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 198251
+Filename: wget_1.18-2_arm_cortex-a9.ipk
+Size: 198644
+SHA256sum: 2b1d8228e39efce97d9ec06eb81ed793c9a3dd41b0eaf73eb4abfe3bccb89fcd
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wifischedule
+Version: 1-2
+Depends: libc
+Source: feeds/packages/net/wifischedule
+License: PRPL
+Section: net
+Maintainer: Nils Koenig <openwrt@newk.it> 
+Architecture: all
+Installed-Size: 3099
+Filename: wifischedule_1-2_all.ipk
+Size: 3867
+SHA256sum: bef96de33da287fa8fa449df869f5161565f54c002b931e0bb66ac817bcfa8f6
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: yaaw
+Version: 2017-04-11-1
+Depends: libc
+Source: feeds/packages/net/yaaw
+License: LGPL-3.0
+Section: net
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 124816
+Filename: yaaw_2017-04-11-1_all.ipk
+Size: 125687
+SHA256sum: 09a7da66f0a1f5fc5f6fa9edf79397863d8539a0c53e4f3ea98fa8acb2d7a106
+Description:  Yet Another Aria2 Web Frontend in pure HTML/CSS/Javascirpt.
+

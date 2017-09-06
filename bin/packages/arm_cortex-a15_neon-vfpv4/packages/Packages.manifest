@@ -1,0 +1,888 @@
+Package: coreutils-base64
+Version: 8.23-3
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18700
+Filename: coreutils-base64_8.23-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19481
+SHA256sum: 8691860c120bc9a95a6b1b0e2a1356fb9c602175acb6e01a4ebb8f585ce29d45
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.23-3
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 16763
+Filename: coreutils-nohup_8.23-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 17404
+SHA256sum: e76380e7ac4e19044260ba43f33498b5d6282352e4e9cae5ecb80b65d8476e23
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.23-3
+Depends: libc
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: coreutils_8.23-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 929
+SHA256sum: 076e0620cbbfe0daec386c5d6856f689cada30afb0fa41c0d564cc0b6a95bd1a
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: ddns-scripts
+Version: 2.7.6-17
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 14956
+Filename: ddns-scripts_2.7.6-17_all.ipk
+Size: 16058
+SHA256sum: 81d36f48b6d34dccf4b850b13e8bb209fc217a577b4439e93a3eeaee3cdc5f46
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4734
+Filename: etherwake_1.09-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5653
+SHA256sum: 85781f5daed85e4e2d411dd1f607d01e2c23acb94790b5ae3f4b4c7e5ece9d1f
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: hd-idle
+Version: 1.04-2
+Depends: libc
+Source: feeds/packages/utils/hd-idle
+License: GPL-2.0
+Section: utils
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4300
+Filename: hd-idle_1.04-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5088
+SHA256sum: 386bac1f597318ac534cf23918899d7eaedfbb78224bdfabf634f079180f1933
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 2.0.2-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 50855
+Filename: htop_2.0.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 51770
+SHA256sum: ef01a1fa03195a847cdd166a03ea765330d183b32187a3ec726a2e3f41481f18
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 499877
+Filename: libdb47_4.7.25.4.NC-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 497389
+SHA256sum: 38068e17a828a30be7d14179b21099f39d180f11652d2583339dc93567797839
+Description:  Berkeley DB library (4.7).
+
+Package: libexpat
+Version: 2.2.3-1
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>, Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 46834
+Filename: libexpat_2.2.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 47456
+SHA256sum: 0027a0ca34ca3161a417f1117d79f12e21d98eeb79f689d97576aff26b69b481
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5437
+Filename: libffi_3.2.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6467
+SHA256sum: 04815b5f3c842a747dddf0cdd599f10f5a24f61dd7bae4dc8d762a60bf4a9af1
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 15976
+Filename: libgdbm_1.11-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 16745
+SHA256sum: 5d57c2931318a506ef3ae17b04276556ae7916b80be5e285a5cb7ee8e4a95d9f
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 79960
+Filename: libpcre_8.41-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 80722
+SHA256sum: 5560e7b6d7f8ebc4ec319b95e83660a48daa0f7bfc4de9f0c955dc60c3d5617a
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsqlite3
+Version: 3190300-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 335265
+Filename: libsqlite3_3190300-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 336040
+SHA256sum: 0e027074dd810ec43c66b8459d303d7c0dbef8d29786046ebf3a3176bcab3d5f
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libxml2
+Version: 2.9.4-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 466874
+Filename: libxml2_2.9.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 464557
+SHA256sum: 23a96b23b76b6bc44a3ea144f8f37e484e2aa2a6364e2406d7d22d83f82418e9
+Description:  A library for manipulating XML and HTML resources.
+
+Package: luci-app-sqm
+Version: 1.1.3-1
+Depends: libc, lua, luci-base, sqm-scripts
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 3850
+Filename: luci-app-sqm_1.1.3-1_all.ipk
+Size: 4792
+SHA256sum: 119c188c0e0a643fe426e091e24064291daafa5158ae7430925df233e278ff47
+Description:  Luci interface for the SQM scripts queue management configuration package.
+
+Package: ntfs-3g
+Version: 2017.3.23-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+Source: feeds/packages/utils/ntfs-3g
+License: GPL-2.0 LGPL-2.0
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 187118
+Filename: ntfs-3g_2017.3.23-1-fuseint_arm_cortex-a15_neon-vfpv4.ipk
+Size: 187590
+SHA256sum: d6ba46815f730dd36fcd11eb6ba2f197f032d576d6decea3ac9fc97ed4976a70
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: p910nd
+Version: 0.97-5
+Depends: libc
+Source: feeds/packages/net/p910nd
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Philipp Kerling <pkerling@casix.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5232
+Filename: p910nd_0.97-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6192
+SHA256sum: 0ef8ea4c842f3e7aab638ce71ee77157eafab94d0f54dfce54d03004b7bc11ab
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: pptpd
+Version: 1.4.0-3
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Source: feeds/packages/net/pptpd
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 29769
+Filename: pptpd_1.4.0-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 30515
+SHA256sum: 134372f335263c8f56cf35ea31935d7fb2b8b962931a8fe5a3abe135648bc663
+Description:  PopTop pptp server
+
+Package: python-base
+Version: 2.7.13-6
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 712696
+Filename: python-base_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 707927
+SHA256sum: 98c48fe521d27286e82a9d1f7c3fd8a8245400b0e313434c415d7a6b08c58f2d
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 695543
+Filename: python-codecs_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 680125
+SHA256sum: dd0d3eac38bb120154e6e2ac0e9acbaddf3b5e84e399e316113d32e818a9fe90
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 59772
+Filename: python-compiler_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 60714
+SHA256sum: 6799a7e0a18b03201ecbcde628b0c957b1325114e6a711936e8b693d94ad3be2
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 59191
+Filename: python-ctypes_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 60031
+SHA256sum: 161b4c18f63148e157502e1581dc985092fd5a1dce224e0be28af472c3bde928
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.13-6
+Depends: libc, python-light, libdb47
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 72238
+Filename: python-db_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 72627
+SHA256sum: 9d44a002a7fe51cf7a10af4a997c32221d65cf6072d5a052b13dddebc799cabe
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 48957
+Filename: python-decimal_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 49832
+SHA256sum: 1aa219a2ddb86d8f2fa7714b84bbfb3a2d01f1029a4de24db62e82614cecea7e
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 174575
+Filename: python-distutils_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 175521
+SHA256sum: 92d7ca31a91be89e7ca70251dea050217086e4f0d70de054cf72362f54cee593
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 50229
+Filename: python-email_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 51162
+SHA256sum: 8720bb7643f64751c254904cad5553759dbb2f99efaada5cad913fa4b4e5e6f4
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.13-6
+Depends: libc, python-light, libgdbm
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5424
+Filename: python-gdbm_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6219
+SHA256sum: 45b4a883543a99fb9e63810a454f48e0966fab71081ba41b187d40fd427a5734
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.13-6
+Depends: libc, python-base, libffi, libbz2
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1415482
+Filename: python-light_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1415333
+SHA256sum: cd0a605b32d3e94652dad14b9ea1b87c29025770cc066c01a344eac82834cc86
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42503
+Filename: python-logging_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 43405
+SHA256sum: 1444747fb856440b1d777037b9515e00b35b4b4b430e8772044e06387edb55a6
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 64311
+Filename: python-multiprocessing_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 65156
+SHA256sum: 7bce958e9baa1aeddb8c937b9dff922e449472f0bffc2963761752a83fcb7102
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.13-6
+Depends: libc, python-light, libncurses
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 30900
+Filename: python-ncurses_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 31497
+SHA256sum: 46867f4c4974d2ffa977e5c99a9b591beae664c618519bb28b10b441fad8e38a
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.13-6
+Depends: libc, python-light, libopenssl
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 33580
+Filename: python-openssl_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 34064
+SHA256sum: 7f00706af34c2885c5f0298ede515a4cb5b2c9093f2fe1e9235338c4ef56f022
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 180371
+Filename: python-pydoc_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 180967
+SHA256sum: 8227c2977faf900c39a9c5da40381b0d74ba28574ac11807069004a707b9ccd5
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.13-6
+Depends: libc, python-light, libsqlite3
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 26062
+Filename: python-sqlite3_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 26632
+SHA256sum: be5a8cef259f072f8873677016726fb71136da3c2dcd5df304c481618f48d11d
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.13-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 33389
+Filename: python-unittest_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 34286
+SHA256sum: 3e7367b32a02127cde78cb7caad105eaefa8db9ae4a967a0c71ccf1cb929970f
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.13-6
+Depends: libc, python-light, libexpat
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 170428
+Filename: python-xml_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 171117
+SHA256sum: 70943a5c95a515f23eb4768f8228883f9281f24c3e5669713f02d9c2b96ea81b
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.13-6
+Depends: libc, python-light, python-codecs, python-compiler, python-ctypes, python-db, python-decimal, python-distutils, python-email, python-gdbm, python-logging, python-multiprocessing, python-ncurses, python-openssl, python-pydoc, python-sqlite3, python-unittest, python-xml
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: python_2.7.13-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1041
+SHA256sum: f76ebe5b739c3ad3670bd220b0c83be0a057e39993f29856960bc693bd6e2a7d
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: sqm-scripts
+Version: 1.1.3-1
+Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 14651
+Filename: sqm-scripts_1.1.3-1_all.ipk
+Size: 15493
+SHA256sum: a174b9c7a612d9e545e458b68a09b46e7e2c052e8a0ed80e0368b9d1b131864c
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: strongswan-charon
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 207269
+Filename: strongswan-charon_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 207225
+SHA256sum: ef1625eba234a9fb86d7c2abfe03950bfa4f734a656ab0a3de5b2480409e879a
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-ipsec
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2867
+Filename: strongswan-ipsec_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3648
+SHA256sum: 6486d9fe365efa9e42c611b84f24f14e4b653309bc3f14a51c78e610090994c7
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the ipsec utility.
+
+Package: strongswan-minimal
+Version: 5.6.0-1
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: strongswan-minimal_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1011
+SHA256sum: 626948216abdce14360370945533392ff0bb8232e719598b9d38132cbe5258f2
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-aes
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 14896
+Filename: strongswan-mod-aes_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13868
+SHA256sum: 3636df01de91d030428145ad26664b76fc06da663913300ca23dff574593261a
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-gmp
+Version: 5.6.0-1
+Depends: libc, strongswan, libgmp
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9513
+Filename: strongswan-mod-gmp_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10289
+SHA256sum: 5709e07ad808abaa92a89b19a71829f959942a1821a394ab8510e60c0cde254c
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-hmac
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2323
+Filename: strongswan-mod-hmac_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3064
+SHA256sum: e02c0b97d3be61c86b29b2627ea3d4bd433d095be70a0bc9582d0d1613da6bd7
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 31705
+Filename: strongswan-mod-kernel-netlink_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 32344
+SHA256sum: 6ba4a29e266c53a10a65fff30bc0ca97359ec253fc58deecc1e284321ea5b811
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1488
+Filename: strongswan-mod-nonce_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2236
+SHA256sum: bff9effab0b5c303c66fc710a38488ea48752228cbd58d75e79e1158a5b1e56a
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2276
+Filename: strongswan-mod-pubkey_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3010
+SHA256sum: 79262c4d475dd85432eefe6c743bc7805854dbd220436b95c3c3d19099562476
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2271
+Filename: strongswan-mod-random_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3001
+SHA256sum: 96104d2d7f642187a1ae7c853c8351df21db0b778dc2e10826fc36ec978f1fe4
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-sha1
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5415
+Filename: strongswan-mod-sha1_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6176
+SHA256sum: 3fea87f159da6d67ea229b17d929e78911720f0fafdad186062f5de3e8c3d619
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5209
+Filename: strongswan-mod-socket-default_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5973
+SHA256sum: 0c3d313deb86fa37e9ed861d4246beed7e0b0f472d3a1285694d312dc380111e
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-stroke
+Version: 5.6.0-1
+Depends: libc, strongswan, strongswan-charon, strongswan-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 65331
+Filename: strongswan-mod-stroke_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 66092
+SHA256sum: f73d86a76c5aac74c05358ebd2417933b908b5177a868ba561409802c95e7860
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-updown
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8345
+Filename: strongswan-mod-updown_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9141
+SHA256sum: ca0deebfd8541e9b238ebccc0af3f2180b25ac9c17083f8c5dfd1b0d23864ae7
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-x509
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 28773
+Filename: strongswan-mod-x509_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 29168
+SHA256sum: ae4072bdb853d3c1bb7237f6e1c39064353e81b5cb1675847ebbabf758dd0872
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2708
+Filename: strongswan-mod-xauth-generic_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3461
+SHA256sum: 3f50ecbc9eeba383931a2bab298fab8ee86cf86d0aeb6593480502b53365d81d
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.6.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2909
+Filename: strongswan-mod-xcbc_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3651
+SHA256sum: a85cbb42c0a91ce7f0b7b9a65f8690f2d5eda4f44c49bdbbc5524d920037d4dc
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan
+Version: 5.6.0-1
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 135454
+Filename: strongswan_5.6.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 135318
+SHA256sum: 5b7d0f8cded583f48a93929db4b5b645b075322da50996f87e165fdd9c670702
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: wget
+Version: 1.18-2
+Depends: libc, libpcre, zlib, libopenssl, librt
+Source: feeds/packages/net/wget
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 197154
+Filename: wget_1.18-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 197455
+SHA256sum: 61f3f37a209893775d05ae4b931137ae15d6274f77502e9d3134af9897ae2dba
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wifischedule
+Version: 1-2
+Depends: libc
+Source: feeds/packages/net/wifischedule
+License: PRPL
+Section: net
+Maintainer: Nils Koenig <openwrt@newk.it> 
+Architecture: all
+Installed-Size: 3099
+Filename: wifischedule_1-2_all.ipk
+Size: 3867
+SHA256sum: bef96de33da287fa8fa449df869f5161565f54c002b931e0bb66ac817bcfa8f6
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+

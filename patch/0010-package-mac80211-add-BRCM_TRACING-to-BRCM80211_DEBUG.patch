@@ -1,0 +1,28 @@
+From 59f5b232fc6f178a57196fde80eb0f283cce2de6 Mon Sep 17 00:00:00 2001
+From: Hamster Tian <haotia@gmail.com>
+Date: Wed, 3 May 2017 22:40:37 +0800
+Subject: [PATCH 10/12] package: mac80211: add BRCM_TRACING to BRCM80211_DEBUG
+ option list
+
+CPTCFG_BRCM_TRACING enabled various logs and tracepoints. These are
+useful for debugging.
+---
+ package/kernel/mac80211/Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/package/kernel/mac80211/Makefile b/package/kernel/mac80211/Makefile
+index 39cda12..7c7c364 100644
+--- a/package/kernel/mac80211/Makefile
++++ b/package/kernel/mac80211/Makefile
+@@ -1560,7 +1560,7 @@ config-$(call config_package,brcmfmac) += BRCMFMAC
+ config-$(CONFIG_BRCMFMAC_SDIO) += BRCMFMAC_SDIO
+ config-$(CONFIG_BRCMFMAC_USB) += BRCMFMAC_USB
+ config-$(CONFIG_BRCMFMAC_PCIE) += BRCMFMAC_PCIE
+-config-$(CONFIG_PACKAGE_BRCM80211_DEBUG) += BRCMDBG
++config-$(CONFIG_PACKAGE_BRCM80211_DEBUG) += BRCMDBG BRCM_TRACING
+ 
+ config-$(call config_package,mac80211-hwsim) += MAC80211_HWSIM
+ config-$(call config_package,mt7601u) += MT7601U
+-- 
+1.9.1
+

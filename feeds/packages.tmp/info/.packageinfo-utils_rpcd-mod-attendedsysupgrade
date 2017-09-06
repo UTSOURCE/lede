@@ -1,0 +1,21 @@
+Source-Makefile: feeds/packages/utils/rpcd-mod-attendedsysupgrade/Makefile
+Package: rpcd-mod-attendedsysupgrade
+Version: 1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread rpcd +cgi-io +rpcd-mod-packagelist
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Base system
+Repository: base
+Title: OpenWrt ubus RPC backend server (attendedsysupgrade)
+Maintainer: Paul Spooren <paul@spooren.de>
+Source: 
+License: GPL-2.0
+Type: ipkg
+Description: 	implements sysupgrade function with ubus
+	add uci settings and needed acls
+Paul Spooren <paul@spooren.de>
+@@
+
+

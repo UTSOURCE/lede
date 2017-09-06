@@ -1,0 +1,90 @@
+From 2b590430d4b04d185f5488674a374ac0c9e1a02f Mon Sep 17 00:00:00 2001
+From: Hamster Tian <haotia@gmail.com>
+Date: Sun, 30 Apr 2017 21:55:45 +0800
+Subject: [PATCH 07/12] packages: k3screenctrl: add k3screenctrl
+
+packages: k3screenctrl: update to include stub host.sh
+
+packages: k3screenctrl: update to fix default script path
+---
+ package/utils/k3screenctrl/Makefile                | 46 ++++++++++++++++++++++
+ package/utils/k3screenctrl/files/k3screenctrl.init | 14 +++++++
+ 2 files changed, 60 insertions(+)
+ create mode 100644 package/utils/k3screenctrl/Makefile
+ create mode 100755 package/utils/k3screenctrl/files/k3screenctrl.init
+
+diff --git a/package/utils/k3screenctrl/Makefile b/package/utils/k3screenctrl/Makefile
+new file mode 100644
+index 0000000..b782358
+--- /dev/null
++++ b/package/utils/k3screenctrl/Makefile
+@@ -0,0 +1,46 @@
++include $(TOPDIR)/rules.mk
++
++PKG_NAME:=k3screenctrl
++PKG_VERSION:=0.10
++PKG_RELEASE:=1
++
++PKG_SOURCE_PROTO:=git
++PKG_SOURCE_URL:=https://github.com/updateing/k3-screen-ctrl.git
++PKG_SOURCE_VERSION:=ec46b841998d936836630a2e9be460c787528936
++PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_SOURCE_VERSION)
++PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.xz
++PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)
++PKG_MAINTAINER:=Hamster Tian <haotia@gmail.com>
++
++include $(INCLUDE_DIR)/package.mk
++
++TARGET_CFLAGS+= -D_GNU_SOURCE
++
++define Package/k3screenctrl
++  SECTION:=utils
++  CATEGORY:=Utilities
++  DEPENDS:=@TARGET_bcm53xx_DEVICE_phicomm-k3
++  TITLE:=LCD screen controller on PHICOMM K3
++  URL:=https://github.com/updateing/k3-screen-ctrl
++endef
++
++define Package/k3screenctrl/description
++ K3 Screen Controller (k3screenctrl) is a program utilizing the LCD screen on PHICOMM K3 to display some stats.
++endef
++
++define Package/k3screenctrl/install
++	$(INSTALL_DIR) $(1)/usr/bin
++	$(INSTALL_DIR) $(1)/lib/k3screenctrl
++	$(INSTALL_DIR) $(1)/etc/init.d
++
++	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/k3screenctrl $(1)/usr/bin/
++	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/wan.sh $(1)/lib/k3screenctrl/
++	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/wifi.sh $(1)/lib/k3screenctrl/
++	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/port.sh $(1)/lib/k3screenctrl/
++	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/basic.sh $(1)/lib/k3screenctrl/
++	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/host.sh $(1)/lib/k3screenctrl/
++
++	$(INSTALL_BIN) ./files/k3screenctrl.init $(1)/etc/init.d/k3screenctrl
++endef
++
++$(eval $(call BuildPackage,k3screenctrl))
+diff --git a/package/utils/k3screenctrl/files/k3screenctrl.init b/package/utils/k3screenctrl/files/k3screenctrl.init
+new file mode 100755
+index 0000000..5d3d190
+--- /dev/null
++++ b/package/utils/k3screenctrl/files/k3screenctrl.init
+@@ -0,0 +1,14 @@
++#!/bin/sh /etc/rc.common
++
++START=99
++STOP=99
++
++SCRIPTS_BASE=/lib/k3screenctrl/
++
++start() {
++    /usr/bin/k3screenctrl &
++}
++
++stop() {
++    killall k3screenctrl
++}
+-- 
+1.9.1
+

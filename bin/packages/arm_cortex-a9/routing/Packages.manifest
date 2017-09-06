@@ -1,0 +1,14 @@
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libuuid
+Source: feeds/routing/miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: arm_cortex-a9
+Installed-Size: 57908
+Filename: miniupnpd_2.0.20170421-2_arm_cortex-a9.ipk
+Size: 58888
+SHA256sum: bfa659b8a9f57065f738be12cf00d7e25e43b3765cdd23830853aac2ff47198e
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+

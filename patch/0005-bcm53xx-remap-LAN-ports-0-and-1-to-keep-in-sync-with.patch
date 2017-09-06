@@ -1,0 +1,30 @@
+From 6c427d2675fff4dbf3a2fd21997f10feddf583ab Mon Sep 17 00:00:00 2001
+From: Hamster Tian <haotia@gmail.com>
+Date: Thu, 27 Apr 2017 20:21:07 +0800
+Subject: [PATCH 05/12] bcm53xx: remap LAN ports 0 and 1 to keep in sync with
+ labels
+
+---
+ target/linux/bcm53xx/base-files/etc/board.d/02_network | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/target/linux/bcm53xx/base-files/etc/board.d/02_network b/target/linux/bcm53xx/base-files/etc/board.d/02_network
+index e34bdd7..a454b99 100755
+--- a/target/linux/bcm53xx/base-files/etc/board.d/02_network
++++ b/target/linux/bcm53xx/base-files/etc/board.d/02_network
+@@ -24,6 +24,12 @@ buffalo,wzr-1750dhp)
+ 	board_config_flush
+ 	exit 0
+ 	;;
++phicomm,k3)
++	ucidef_add_switch "switch0" \
++		"0:lan:2" "1:lan:1" "2:lan:3" "3:wan:4" "5t@eth0"
++	board_config_flush
++	exit 0
++	;;
+ esac
+ 
+ wan_macaddr="$(nvram get wan_hwaddr)"
+-- 
+1.9.1
+

@@ -1,0 +1,20 @@
+Source-Makefile: feeds/packages/utils/rpcd-mod-packagelist/Makefile
+Package: rpcd-mod-packagelist
+Version: 0.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread rpcd @!CLEAN_IPKG
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Base system
+Repository: base
+Title: ubus packagelist
+Maintainer: Paul Spooren <paul@spooren.de>
+Source: 
+License: GPL-2.0
+Type: ipkg
+Description: 	add ubus call to receive user installed packages without the need of opkg installed
+Paul Spooren <paul@spooren.de>
+@@
+
+

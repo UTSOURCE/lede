@@ -1,0 +1,28 @@
+From 5ca6ae5b61b64032742fe933da2319e54dab56e8 Mon Sep 17 00:00:00 2001
+From: Hamster Tian <haotia@gmail.com>
+Date: Mon, 8 May 2017 13:01:48 +0800
+Subject: [PATCH 12/12] package: k3screenctrl: use real repo URL and revision
+ number
+
+---
+ package/utils/k3screenctrl/Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/package/utils/k3screenctrl/Makefile b/package/utils/k3screenctrl/Makefile
+index b70f1fb..f4d56b2 100644
+--- a/package/utils/k3screenctrl/Makefile
++++ b/package/utils/k3screenctrl/Makefile
+@@ -5,8 +5,8 @@ PKG_VERSION:=0.10
+ PKG_RELEASE:=1
+ 
+ PKG_SOURCE_PROTO:=git
+-PKG_SOURCE_URL:=https://github.com/updateing/k3-screen-ctrl.git
+-PKG_SOURCE_VERSION:=fe3f9798d8c352fbe2f00c80d8269ec3e2a02b7f
++PKG_SOURCE_URL:=https://github.com/updateing/k3screenctrl.git
++PKG_SOURCE_VERSION:=dd05ce9a5cb0cb6cebfc6b3b5823c7f6d75796ff
+ PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_SOURCE_VERSION)
+ PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.xz
+ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)
+-- 
+1.9.1
+

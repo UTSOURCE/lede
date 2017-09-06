@@ -1,0 +1,28 @@
+From 329054120399065c0f18bb8ef158b0d2f37c4296 Mon Sep 17 00:00:00 2001
+From: Hamster Tian <haotia@gmail.com>
+Date: Thu, 27 Apr 2017 20:22:06 +0800
+Subject: [PATCH 06/12] Revert "bcm53xx: deal with LLLW switch port partition"
+
+This reverts commit dc879f2607c6f67db8df67591ee4a9f291a421d3.
+---
+ target/linux/bcm53xx/base-files/etc/board.d/02_network | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/target/linux/bcm53xx/base-files/etc/board.d/02_network b/target/linux/bcm53xx/base-files/etc/board.d/02_network
+index a454b99..27ef363 100755
+--- a/target/linux/bcm53xx/base-files/etc/board.d/02_network
++++ b/target/linux/bcm53xx/base-files/etc/board.d/02_network
+@@ -94,10 +94,6 @@ elif echo "$vlan1ports" | egrep -q "^0 1 2 3 5 7 8" && \
+      echo "$vlan2ports" | egrep -q "^4 8"; then
+ 	ucidef_add_switch "switch0" \
+ 		"0:lan" "1:lan" "2:lan" "3:lan" "5:lan" "7:lan" "4:wan" "8t@$ifname"
+-elif echo "$vlan1ports" | egrep -q "^0 1 2 5" && \
+-     echo "$vlan2ports" | egrep -q "^3 5"; then
+-	ucidef_add_switch "switch0" \
+-		"0:lan" "1:lan" "2:lan" "3:wan" "5t@$ifname"
+ else
+ 	ucidef_add_switch "switch0" \
+ 		"0:lan" "1:lan" "2:lan" "3:lan" "4:wan" "5t@$ifname"
+-- 
+1.9.1
+
